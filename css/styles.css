@@ -1,0 +1,19 @@
+
+:root {
+    --brand-color: #3f51b5;
+}
+
+.section {
+    /* Інші стилі */
+    border: 2px solid var(--brand-color);
+}
+
+.section-title {
+    /* Інші стилі */
+    color: var(--brand-color);
+}
+
+.section-title::before {
+    /* Інші стилі */
+    background-color: var(--brand-color);
+}
